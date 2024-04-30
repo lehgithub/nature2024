@@ -1,7 +1,12 @@
 import Image from "next/image";
+import Mobile from "./components/Mobile";
+import Wrapper from "./components/Wrapper";
 
 export default function Home() {
   return (
-    <h1>teste inicial</h1>
+    <div>
+      <Mobile/>
+      <Wrapper/>
+    </div>
   );
 }
